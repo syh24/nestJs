@@ -72,7 +72,6 @@ export class UsersService {
       name: user.name,
       email: user.email,
     })
-    
   }
 
   async getUserInfo(userId: number): Promise<UserInfo> {
